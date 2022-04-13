@@ -33,10 +33,18 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 1rem;
   box-shadow: 2rem 1rem 2rem 2rem rgba(0, 0, 0, 0.4);
+  max-height: 30rem;
 }
 
 .quote-text {
   font-size: 2.75rem;
+  transition: all 0.3s linear;
+  padding-top: 2rem;
+}
+
+.quote-text:hover {
+  transform: skew(15deg) scale(1.05);
+  height: 12rem;
 }
 
 .long-quote {
@@ -52,6 +60,12 @@ body {
   font-size: 2.5rem;
   font-weight: 500;
   margin: 2rem auto;
+  transition: all 0.3s linear;
+  margin-bottom: 3rem;
+}
+
+.quote-author:hover {
+  transform: skew(-15deg) scale(1.05);
 }
 
 button {
