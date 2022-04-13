@@ -121,3 +121,23 @@ button:hover .fa-twitter {
     font-size: 2.5rem;
   }
 }
+
+.loader {
+  width: 12rem;
+  height: 12rem;
+  background-color: #fff;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3946db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
