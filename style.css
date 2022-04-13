@@ -40,11 +40,11 @@ body {
   font-size: 2.75rem;
   transition: all 0.3s linear;
   padding-top: 2rem;
+  height: 12rem;
 }
 
 .quote-text:hover {
   transform: skew(15deg) scale(1.05);
-  height: 12rem;
 }
 
 .long-quote {
